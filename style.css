@@ -1,0 +1,146 @@
+body{
+  background-color:  hsl(228, 11%, 9%);
+  margin: 25px auto;
+}
+
+img{
+  max-width: 100%;
+}
+
+button{
+  cursor: pointer;
+}
+
+
+#rating-page,.thanks-page{
+  background-color: hsl(213, 19%, 18%); 
+  padding: 20px; 
+  margin: 10% auto;
+  border-radius: 14px;
+  max-width: 300px;
+ 
+}
+
+.hide{
+  display: none;
+}
+#rating-page img{
+  background-color: hsl(210, 13%, 25%);
+  padding: 9px;
+  border-radius: 50%;
+  margin-bottom: 0;
+}
+
+#rating-page h2,.thanks-page h2{
+  color:white;
+  margin-top: 15px;
+}
+
+#rating-page p,.thanks-page p{
+  color:white;
+  opacity: 0.6;
+  margin-bottom: 23px;
+  font-size: 15px;
+  line-height: 19px;
+}
+
+
+
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  
+}
+
+li{
+  margin: 7px;
+}
+
+.btn-num{
+  width: 40px;
+  height: 40px;
+  background-color: hsl(210, 13%, 25%);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  transition: 0.3s;
+}
+
+
+.submit-btn{
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border-width: 0;
+  width: 99%;
+  padding: 12px 0;
+  border-radius: 27px;
+  transition: 0.5s;
+
+}
+
+.submit-btn:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+  transform: scale(1.02);
+}
+
+.btn-num:hover {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.btn-num:focus {
+  background-color: hsl(25, 97%, 53%);
+}
+
+
+.thanks-page img{
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.thanks-page h2{
+  text-align: center;
+  margin-top: 25px;
+}
+
+#selected{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  background-color:  hsl(210, 13%, 25%);
+  width: 130px;
+  text-align: center;
+  margin:  15px 28%;
+  margin-bottom: 0;
+  border-radius: 30px;
+  color: hsl(25, 97%, 53%);
+  font-size: 14px;
+  
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.attribution a {
+  color: hsl(228, 47%, 61%);
+}
+
+
+
+
+  
+  
+
+
+
